@@ -1,0 +1,52 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .navbar {
+   height: 42px;
+ }
+ .navbar .navbar-inner {
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .navbar .navbar-inner .nav .active a {
+   text-shadow: none;
+ }
+ .navbar .navbar-inner .nav li a {
+   text-shadow: none;
+ }
+ .container-fluid {
+   background: rgba(0, 0, 0, 0) url(../images/source.jpg) no-repeat 0% 0%;
+   background-size: cover;
+   border-bottom: 5px solid #333333;
+   height: 304px;
+ }
+ .container-fluid .container {
+   margin-top: 40px;
+ }
+ .container-fluid .container .row-fluid {
+   margin: 0px 30px 0px 30px;
+ }
+ .container-fluid .container .row-fluid .span12 .heading {
+   font-family:"verdana";
+   font-size: 40px;
+   color: #2d2d2d;
+ }
+ .container-fluid .container .row-fluid .span12 p {
+   font-family:"verdana";
+   font-size: 20px;
+   color: #2d2d2d;
+ }
+ .container.container-1 {
+   padding: 30px 0px 0px 0px;
+ }
+ .container-1 .row-fluid .span6 .heading.heading-1 {
+   text-align: center;
+ }
+ .container-1 .row-fluid .span6 p span {
+   background-color: transparent;
+ }
+ .container-1 .row-fluid .span8 ul li span {
+   background-color: transparent;
+ }

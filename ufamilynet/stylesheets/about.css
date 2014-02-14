@@ -10,13 +10,17 @@
    padding-left: 20px;
    padding-right: 20px;
  }
+ .navbar .navbar-inner .nav li a {
+   text-shadow: none;
+ }
  .container-fluid {
-   background: rgba(0, 0, 0, 0) url(../images/source.jpg) no-repeat 0% 0%;
+   background: rgba(0, 0, 0, 0) url(../images/source_about.jpg) no-repeat 0px 0px;
    background-size: cover;
-   height: 374px;
+   border-bottom: 5px solid #333333;
+   height: 82px;
  }
  .container-fluid .container {
-   margin-top: 40px;
+   margin-top: 10px;
  }
  .container-fluid .container .row-fluid {
    margin: 0px 30px 0px 30px;
@@ -26,8 +30,9 @@
    font-size: 40px;
    color: #2d2d2d;
  }
- .container-fluid .container .row-fluid .span12 p {
-   font-family:"verdana";
-   font-size: 20px;
-   color: #2d2d2d;
+ .container.container-1 {
+   padding: 30px 0px 0px 0px;
+ }
+ .container-1 .row-fluid .span7 p span {
+   background-color: transparent;
  }
