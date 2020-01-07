@@ -25,7 +25,7 @@ baseurl: ''
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
-logo: "media/100px-gfdl-ms-logo_whitebg.png"
+logo: "/media/100px-gfdl-ms-logo_whitebg.png"
 
 # Pagination
 paginate: 5
@@ -60,4 +60,4 @@ collections:
       please open a GitHub issue.
     feature_text: |
       ## GFDL Modeling Systems
-    feature_image: "media/code_banner_1600x400px.png"
+    feature_image: "/media/code_banner_1600x400px.png"
