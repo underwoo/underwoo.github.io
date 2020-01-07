@@ -25,7 +25,7 @@ baseurl: ''
 title: 'My website'
 description: 'This is my new website'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "media/100px-gfdl-ms-logo_whitebg.png"
 
 # Pagination
 paginate: 5
@@ -34,11 +34,11 @@ paginate_path: blog/page:num
 # Header nav
 navigation_header:
 - title: Home
-  url: /
+  url: /blog/
 - title: About
   url: /about/
 - title: Blog
-  url: /blog/
+  url: /
 
 # Footer nav
 navigation_footer:
@@ -48,9 +48,16 @@ navigation_footer:
 # Collections
 collections:
   posts:
-    title: Posts
+    title: Blog Posts
     output: true
-    description: "My thoughts and ideas"
+    description: |
+Welcome to the GFDL Modeling Systems blog! Read on for information about running the GFDL model, 
+getting acquainted with out team, the technologies we use (e.g. git, netCDF, Slurm), the art of
+good programming, what the team is up to, and other computing tidbits that are relevant to the 
+world of climate modeling.
+
+If you have an idea for a topic we should write about, or want to contribute a post of your own, 
+please open a GitHub issue.
     feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+      ## GFDL Modeling Systems
+    feature_image: "media/code_banner_1600x400px.png"
