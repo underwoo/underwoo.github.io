@@ -51,13 +51,13 @@ collections:
     title: Blog Posts
     output: true
     description: |
-Welcome to the GFDL Modeling Systems blog! Read on for information about running the GFDL model, 
-getting acquainted with out team, the technologies we use (e.g. git, netCDF, Slurm), the art of
-good programming, what the team is up to, and other computing tidbits that are relevant to the 
-world of climate modeling.
+      Welcome to the GFDL Modeling Systems blog! Read on for information about running the GFDL model, 
+      getting acquainted with out team, the technologies we use (e.g. git, netCDF, Slurm), the art of
+      good programming, what the team is up to, and other computing tidbits that are relevant to the 
+      world of climate modeling.
 
-If you have an idea for a topic we should write about, or want to contribute a post of your own, 
-please open a GitHub issue.
+      If you have an idea for a topic we should write about, or want to contribute a post of your own, 
+      please open a GitHub issue.
     feature_text: |
       ## GFDL Modeling Systems
     feature_image: "media/code_banner_1600x400px.png"
