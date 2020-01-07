@@ -3,6 +3,8 @@ title: false
 styles: true
 ---
 
-$headingColour: #DFDFDF; 
+.feature .container h2 {
+  color: #DFDFDF;
+}
 
 @import "alembic";
