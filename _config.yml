@@ -1,5 +1,5 @@
 # Set theme
-remote_theme: daviddarnes/alembic
+#remote_theme: daviddarnes/alembic
 
 # File excludes
 exclude:
@@ -16,9 +16,10 @@ plugins:
 - jekyll-redirect-from
 - jekyll-default-layout
 - jekyll-feed
-- jemoji
-- jekyll-remote-theme
+- jekyll-commonmark
+- jekyll-include-cache
 - jekyll-coffeescript
+- jemoji
 
 # Site settings
 timezone: America/New_York
