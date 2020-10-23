@@ -18,14 +18,19 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-remote-theme
+- jekyll-coffeescript
 
 # Site settings
-url: 'https://mydomain.com'
+timezone: America/New_York
+encoding: utf-8
+url: 'https://underwoo.github.io'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'GFDL Modeling Systems'
+description: 'GFDL Modeling Systems - Helping advance GFDL science.'
 permalink: pretty
 logo: "/media/100px-gfdl-ms-logo_whitebg.png"
+repo: "https://github.com/underwoo/underwoo.github.io"
+email: gfdl.climate.model.info@noaa.gov
 
 # Pagination
 paginate: 5
@@ -34,16 +39,24 @@ paginate_path: blog/page:num
 # Header nav
 navigation_header:
 - title: Home
-  url: /blog/
+  url: /
 - title: About
   url: /about/
 - title: Blog
-  url: /
+  url: /blog/
 
 # Footer nav
 navigation_footer:
 - title: Back to top
   url: "#top"
+- title: GFDL
+  url: "https://www.gfdl.noaa.gov"
+
+social_links:
+   Twitter: https://twitter.com/NOAAResearch
+   LinkedIn: https://www.linkedin.com/company/noaa
+   GitHub: https://github.com/NOAA-GFDL
+   Email: true
 
 # Collections
 collections:
@@ -51,13 +64,24 @@ collections:
     title: Blog Posts
     output: true
     description: |
-      Welcome to the GFDL Modeling Systems blog! Read on for information about running the GFDL model, 
+      Welcome to the GFDL Modeling Systems blog! Read on for information about running the GFDL model,
       getting acquainted with out team, the technologies we use (e.g. git, netCDF, Slurm), the art of
-      good programming, what the team is up to, and other computing tidbits that are relevant to the 
+      good programming, what the team is up to, and other computing tidbits that are relevant to the
       world of climate modeling.
 
-      If you have an idea for a topic we should write about, or want to contribute a post of your own, 
+      If you have an idea for a topic we should write about, or want to contribute a post of your own,
       please open a GitHub issue.
     feature_text: |
       ## GFDL Modeling Systems
     feature_image: "/media/code_banner_1600x400px.png"
+  staff_members:
+     output: true
+
+defaults:
+   -
+      scope:
+         path: ""
+         type: "pages"
+      values:
+         layout: page
+         feature_image: "/media/code_banner_1600x400px.png"

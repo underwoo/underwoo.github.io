@@ -7,7 +7,14 @@ I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
 
 Testing something.  I hope it works.
 
-{% for user in site.github.organizational_members %}
-  * ![{{ user.login }} avatar]({{ user.avatar_url }})  [{{ user.login }}]({{ user.html_url }})
+---
+
+{% for staff_member in site.staff_members %}
+## ![{{staff_member.name}} image]({{staff_member.image}}){:width="50px"} {{ staff_member.name }} - {{ staff_member.position }}
+
+{{ staff_member.content | markdownify }}
 {% endfor %}
 
+
+---
+Is this working?
