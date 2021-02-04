@@ -8,5 +8,3 @@ or
 
 **[Download the GitHub Pages kit](https://github.com/daviddarnes/alembic-kit/archive/remote-theme.zip)**
 
-A change to test submodule modifications.
-
