@@ -107,7 +107,7 @@ params:
     # option to specify the title in the homepage
     title: Seth Underwood
     # option to specify the subtitle in the homepage
-    subtitle: Scientific Developer, Project Manager, Father, Brother, Son
+    subtitle: Scientific Developer, Project Manager, Grandfather, Father, Brother, Son
     # option to specify image in the homepage
     image: "/images/avataaars.png" # worker.svg
     # option to specify the width of the image in the homepage
